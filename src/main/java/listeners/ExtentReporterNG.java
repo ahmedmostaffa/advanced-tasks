@@ -120,12 +120,9 @@ public class ExtentReporterNG implements IReporter {
 						Markup markup= MarkupHelper.createCodeBlock(message, CodeLanguage.XML);
 						test.info(markup);
 					}
-					else if (message.toLowerCase().contains("error")){
-						message.replace("error","");
-						Markup markup=MarkupHelper.createCodeBlock(message,CodeLanguage.JSON);
-					}else {
+					else {
 					test.log(Status.INFO, message);
-				}
+					}
 				}
 				for (String group : result.getMethod().getGroups())
 					test.assignCategory(group);

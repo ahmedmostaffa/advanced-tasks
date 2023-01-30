@@ -24,7 +24,7 @@ public class CheckTheBrokenLinks extends BaseTest {
             HttpURLConnection httpURLConnection=checkLinks(webElement.getAttribute("href"));
             try {
                 if (httpURLConnection.getResponseCode()>=200){
-                    ReportManager.log("error"+webElement.getAttribute("href")+"----> "+httpURLConnection.getResponseCode()+" "+httpURLConnection.getResponseMessage());
+                    ReportManager.log(webElement.getAttribute("href")+"----> "+httpURLConnection.getResponseCode()+" "+httpURLConnection.getResponseMessage());
                 }else {
                     ReportManager.log(webElement.getAttribute("href")+"----> "+httpURLConnection.getResponseCode()+" "+httpURLConnection.getResponseMessage());
                 }

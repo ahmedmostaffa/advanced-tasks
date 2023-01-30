@@ -4,7 +4,7 @@
 
   <test thread-count="10" name="Test">
     <classes>
-<class name="runners.TestRunner"></class>
+<class name="tests.CheckTheBrokenLinks"></class>
     </classes>
 
   </test> <!-- Test -->

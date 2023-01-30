@@ -37,7 +37,7 @@ automation report
 </span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 30, 2023 07:06:28 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jan 30, 2023 07:40:37 PM</span></a>
 </li>
 </ul>
 </div>
@@ -47,6 +47,11 @@ automation report
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -88,7 +93,7 @@ automation report
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -114,25 +119,25 @@ automation report
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author="Ahmed-Mustafa"
           tag="tests.CheckTheBrokenLinks"
           device="Ment">
           <div class="test-detail">
             <p class="name">validateTheLinks</p>
             <p class="text-sm">
-              <span>7:06:28 PM</span> / <span>00:05:22:169</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>7:40:37 PM</span> / <span>00:03:41:464</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">validateTheLinks</h5>
-<span class='badge badge-success'>01.30.2023 7:06:28 PM</span>
-<span class='badge badge-danger'>01.30.2023 7:11:50 PM</span>
-<span class='badge badge-default'>00:05:22:169</span>
+<h5 class="test-status text-fail">validateTheLinks</h5>
+<span class='badge badge-success'>01.30.2023 7:40:37 PM</span>
+<span class='badge badge-danger'>01.30.2023 7:44:19 PM</span>
+<span class='badge badge-default'>00:03:41:464</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -147,863 +152,935 @@ automation report
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           number of the found elements are 124
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/news----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/video----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/games----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/music----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/kids----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
+        <td>
+          https://staging-ment-arena.mondia.com/ar/subscription----> 200 OK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/sunday-times/----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/info/policy----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/info/faq----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108302065----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108292085----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/67694219----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/publisher/Cartoon%20Network----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/71036886----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/publisher/Inlogic%20Software----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/music/playlists/109554158----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/music/playlists/109554158----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/music/playlists/109553877----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/music/playlists/109553877----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108255450----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108267107----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/102102558----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/75852937----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/publisher/Plugin%20Digital----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108302065----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/news----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/2022-11-22-this-is-a-custom-page-like-phala-phala----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2018-08-02-three-men-taken-in-for-questioning-over-brazen-atm-theft----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2018-08-02-tribute-paid-to-bongani-mayosi-the-brilliant-professor-who-lived-the-lives-of-three-people----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/sunday-times/news/travel/2018-08-01-create-your-own-south-african-gin-route----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/sunday-times/news/travel----> 404 Not Found
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/premium/news/2020-10-30-the-brown-hairstreak-butterfly----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/premium/news----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/sunday-times/news/2018-07-31-enter-the-toyota-4x4-challenger-search-to-win-a-brand-new-fortuner----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/sunday-times/news----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/gamers-live/2020-11-20-spacex-crew-1-the-crew-dragon-spacecraft----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/gamers-live----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/2022-09-20-test-article----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2022-05-17-watch-gautrains-reach-into-communities-goes-far-beyond-just-rail----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2022-05-17-alleged-black-axe-romance-scamster-awarded-r210k-bail-on-strict-conditions----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/video----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108255450----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108267107----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108267108----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108306911----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108285484----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/video/details/108265278----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/games----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110421517----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110421518----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110395498----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110347555----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110087633----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110087634----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110063321----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110062872----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110063320----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/110191679----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/main/games#editor'spicks----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/104697625----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/104697624----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/104636038----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/104445689----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/104445688----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/104445687----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/104434093----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/104393527----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/103688864----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/games/details/103337230----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
+        <td>
+          https://staging-ment-arena.mondia.com/ar/subscription----> 200 OK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/list----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553990----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553990----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553714----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553714----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109554158----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109554158----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553877----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553877----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109554303----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109554303----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109554064----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109554064----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553856----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553856----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
-          https://staging-ment-arena.mondia.com/ar/podcast/details/109553823----> 502 Bad Gateway
+          https://staging-ment-arena.mondia.com/ar/podcast/details/109553823----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
-          https://staging-ment-arena.mondia.com/ar/podcast/details/109553823----> 502 Bad Gateway
+          https://staging-ment-arena.mondia.com/ar/podcast/details/109553823----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109553755----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
-          https://staging-ment-arena.mondia.com/ar/podcast/details/109553755----> 502 Bad Gateway
+          https://staging-ment-arena.mondia.com/ar/podcast/details/109553755----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/episode/109452843----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/episode/109452844----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
-          https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 502 Bad Gateway
+          https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/episode/109452845----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/episode/109452846----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/episode/109452847----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/episode/109452848----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/info/policy----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/info/faq----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
+        <td>
+          https://staging-ment-arena.mondia.com/ar/subscription----> 200 OK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/pages/contact-us/----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/pages/advertise/----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
         <td>
           https://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td>7:44:20 PM</td>
+        <td>
+          https://staging-ment-arena.mondia.com/ar/subscription----> 200 OK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:44:20 PM</td>
         <td>
           https://www.timeslive.co.za/----> 200 OK
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:11:52 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:44:20 PM</td>
         <td>
-          https://staging-ment-arena.mondia.com/ar/info/policy----> 200 OK
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:11:52 PM</td>
-        <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3e4cf7af639aebb4e370dc8035afd0f, getElementAttribute {id=7bde8aaf-c402-4d09-88b5-888fe41fe9c1, name=href}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\AMMABR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53963/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b3e4cf7af639aebb4e370dc8035afd0f)] -> xpath: //a[@href]]
+Session ID: b3e4cf7af639aebb4e370dc8035afd0f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:158)
+	at tests.CheckTheBrokenLinks.lambda$validateTheLinks$0(CheckTheBrokenLinks.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at tests.CheckTheBrokenLinks.validateTheLinks(CheckTheBrokenLinks.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -1020,10 +1097,10 @@ automation report
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view exception-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
 <ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
@@ -1031,15 +1108,15 @@ automation report
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">tests.CheckTheBrokenLinks</p>
+<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>tests.CheckTheBrokenLinks</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>org.openqa.selenium.StaleElementReferenceException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1050,9 +1127,58 @@ automation report
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:06:28 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:40:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>validateTheLinks</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">tests.CheckTheBrokenLinks</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>tests.CheckTheBrokenLinks</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:40:37 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>validateTheLinks</a>
 </td>
@@ -1080,7 +1206,7 @@ automation report
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">Ment</p>
 <p class="duration text-sm">1 tests</p>
@@ -1088,7 +1214,7 @@ automation report
 <div class="test-contents d-none">
 <div class="info">
 <h4>Ment</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1099,9 +1225,9 @@ automation report
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:06:28 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:40:37 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>validateTheLinks</a>
 </td>
@@ -1129,7 +1255,7 @@ automation report
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">Ahmed-Mustafa</p>
 <p class="duration text-sm">1 tests</p>
@@ -1137,7 +1263,7 @@ automation report
 <div class="test-contents d-none">
 <div class="info">
 <h4>Ahmed-Mustafa</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1148,9 +1274,9 @@ automation report
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:06:28 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:40:37 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>validateTheLinks</a>
 </td>
@@ -1170,7 +1296,7 @@ automation report
 </div><div class="test-wrapper row view log-view">
   <div class="col-md-12 mt-3">
   	<div class="card"><div class="card-body">
-  	number of the found elements are 124https://staging-ment-arena.mondia.com/ar----> 200 OKhttps://staging-ment-arena.mondia.com/----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/video----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/games----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/music----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/kids----> 200 OKhttps://www.timeslive.co.za/sunday-times/----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/policy----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/faq----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108302065----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108292085----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/67694219----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/publisher/Cartoon%20Network----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/71036886----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/publisher/Inlogic%20Software----> 200 OKhttps://staging-ment-arena.mondia.com/ar/music/playlists/109554158----> 200 OKhttps://staging-ment-arena.mondia.com/ar/music/playlists/109554158----> 200 OKhttps://staging-ment-arena.mondia.com/ar/music/playlists/109553877----> 200 OKhttps://staging-ment-arena.mondia.com/ar/music/playlists/109553877----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108255450----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108267107----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/102102558----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/75852937----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/publisher/Plugin%20Digital----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108302065----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/2022-11-22-this-is-a-custom-page-like-phala-phala----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2018-08-02-three-men-taken-in-for-questioning-over-brazen-atm-theft----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2018-08-02-tribute-paid-to-bongani-mayosi-the-brilliant-professor-who-lived-the-lives-of-three-people----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OKhttps://www.timeslive.co.za/sunday-times/news/travel/2018-08-01-create-your-own-south-african-gin-route----> 200 OKhttps://www.timeslive.co.za/sunday-times/news/travel----> 404 Not Foundhttps://staging-ment-arena.mondia.com/ar/articles/premium/news/2020-10-30-the-brown-hairstreak-butterfly----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/premium/news----> 200 OKhttps://www.timeslive.co.za/sunday-times/news/2018-07-31-enter-the-toyota-4x4-challenger-search-to-win-a-brand-new-fortuner----> 200 OKhttps://www.timeslive.co.za/sunday-times/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/gamers-live/2020-11-20-spacex-crew-1-the-crew-dragon-spacecraft----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/gamers-live----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/2022-09-20-test-article----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2022-05-17-watch-gautrains-reach-into-communities-goes-far-beyond-just-rail----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2022-05-17-alleged-black-axe-romance-scamster-awarded-r210k-bail-on-strict-conditions----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/video----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108255450----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108267107----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108267108----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108306911----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108285484----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108265278----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/games----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110421517----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110421518----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110395498----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110347555----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110087633----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110087634----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110063321----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110062872----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110063320----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110191679----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/games#editor'spicks----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104697625----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104697624----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104636038----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104445689----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104445688----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104445687----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104434093----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104393527----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/103688864----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/103337230----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/list----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553990----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553990----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553714----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553714----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554158----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554158----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553877----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553877----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554303----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554303----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554064----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554064----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553856----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553856----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553823----> 502 Bad Gatewayhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553823----> 502 Bad Gatewayhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553755----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553755----> 502 Bad Gatewayhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452843----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452844----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 502 Bad Gatewayhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452845----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452846----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452847----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452848----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/policy----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/faq----> 200 OKhttps://www.timeslive.co.za/pages/contact-us/----> 200 OKhttps://www.timeslive.co.za/pages/advertise/----> 200 OKhttps://www.timeslive.co.za/----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OKhttps://www.timeslive.co.za/----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/policy----> 200 OK
+  	number of the found elements are 124https://staging-ment-arena.mondia.com/ar----> 200 OKhttps://staging-ment-arena.mondia.com/----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/video----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/games----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/music----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/kids----> 200 OKhttps://staging-ment-arena.mondia.com/ar/subscription----> 200 OKhttps://www.timeslive.co.za/sunday-times/----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/policy----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/faq----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108302065----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108292085----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/67694219----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/publisher/Cartoon%20Network----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/71036886----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/publisher/Inlogic%20Software----> 200 OKhttps://staging-ment-arena.mondia.com/ar/music/playlists/109554158----> 200 OKhttps://staging-ment-arena.mondia.com/ar/music/playlists/109554158----> 200 OKhttps://staging-ment-arena.mondia.com/ar/music/playlists/109553877----> 200 OKhttps://staging-ment-arena.mondia.com/ar/music/playlists/109553877----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108255450----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108267107----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/102102558----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/75852937----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/publisher/Plugin%20Digital----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108302065----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/2022-11-22-this-is-a-custom-page-like-phala-phala----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2018-08-02-three-men-taken-in-for-questioning-over-brazen-atm-theft----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2018-08-02-tribute-paid-to-bongani-mayosi-the-brilliant-professor-who-lived-the-lives-of-three-people----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OKhttps://www.timeslive.co.za/sunday-times/news/travel/2018-08-01-create-your-own-south-african-gin-route----> 200 OKhttps://www.timeslive.co.za/sunday-times/news/travel----> 404 Not Foundhttps://staging-ment-arena.mondia.com/ar/articles/premium/news/2020-10-30-the-brown-hairstreak-butterfly----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/premium/news----> 200 OKhttps://www.timeslive.co.za/sunday-times/news/2018-07-31-enter-the-toyota-4x4-challenger-search-to-win-a-brand-new-fortuner----> 200 OKhttps://www.timeslive.co.za/sunday-times/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/gamers-live/2020-11-20-spacex-crew-1-the-crew-dragon-spacecraft----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/gamers-live----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/2022-09-20-test-article----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2022-05-17-watch-gautrains-reach-into-communities-goes-far-beyond-just-rail----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa/2022-05-17-alleged-black-axe-romance-scamster-awarded-r210k-bail-on-strict-conditions----> 200 OKhttps://staging-ment-arena.mondia.com/ar/articles/news/south-africa----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/video----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108255450----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108267107----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108267108----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108306911----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108285484----> 200 OKhttps://staging-ment-arena.mondia.com/ar/video/details/108265278----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/games----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110421517----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110421518----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110395498----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110347555----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110087633----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110087634----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110063321----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110062872----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110063320----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/110191679----> 200 OKhttps://staging-ment-arena.mondia.com/ar/main/games#editor'spicks----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104697625----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104697624----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104636038----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104445689----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104445688----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104445687----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104434093----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/104393527----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/103688864----> 200 OKhttps://staging-ment-arena.mondia.com/ar/games/details/103337230----> 200 OKhttps://staging-ment-arena.mondia.com/ar/subscription----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/list----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553990----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553990----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553714----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553714----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554158----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554158----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553877----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553877----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554303----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554303----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554064----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109554064----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553856----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553856----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553823----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553823----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553755----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109553755----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452843----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452844----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452845----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452846----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452847----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/episode/109452848----> 200 OKhttps://staging-ment-arena.mondia.com/ar/podcast/details/109452849----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/policy----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/faq----> 200 OKhttps://staging-ment-arena.mondia.com/ar/subscription----> 200 OKhttps://www.timeslive.co.za/pages/contact-us/----> 200 OKhttps://www.timeslive.co.za/pages/advertise/----> 200 OKhttps://www.timeslive.co.za/----> 200 OKhttps://staging-ment-arena.mondia.com/ar/info/terms-conditions----> 200 OKhttps://staging-ment-arena.mondia.com/ar/subscription----> 200 OKhttps://www.timeslive.co.za/----> 200 OK
   	</div></div>
   </div>
 </div>
@@ -1179,25 +1305,25 @@ automation report
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 30, 2023 07:06:28 PM</h3>
+<h3>Jan 30, 2023 07:40:37 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 30, 2023 07:11:50 PM</h3>
+<h3>Jan 30, 2023 07:44:19 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -1213,12 +1339,12 @@ automation report
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='100%'><b>1</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1236,10 +1362,10 @@ automation report
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>1</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>122</b> others
+<small data-tooltip='0%'><b>1</b> events failed,
+<b data-tooltip='%'>125</b> others
 </small>
 </div>
 </div>
@@ -1255,7 +1381,7 @@ automation report
 </div></div>
 <script>
 var timeline = {
-"validateTheLinks":322.169
+"validateTheLinks":221.464
 };
 </script>
 <div class="row">
@@ -1267,11 +1393,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>Ahmed-Mustafa</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 </tbody>
 </table></div>
@@ -1284,11 +1410,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>tests.CheckTheBrokenLinks</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 </tbody>
 </table></div>
@@ -1302,11 +1428,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>Ment</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 </tbody>
 </table></div>
@@ -1347,8 +1473,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -1364,11 +1490,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 1,
-failEvents: 0,
+passEvents: 0,
+failEvents: 1,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 122
+infoEvents: 125
 };
 </script>        </div>
       </div>
