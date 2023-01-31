@@ -31,6 +31,13 @@ jobs:
       run: mvn clean test -DfileName='testng.xml'
       continue-on-error: true
 
+    - name: Output the run Details
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+          name: RunReports
+          path: extent-reports
+
 
     - name: Send mail
       uses: dawidd6/action-send-mail@v3
