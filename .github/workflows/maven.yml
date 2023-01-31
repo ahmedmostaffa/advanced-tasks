@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean test -DfileName='testng.xml'
+      run: mvn clean test -DfileName=testng.xml
       continue-on-error: true
 
     - name: Output the run Details
