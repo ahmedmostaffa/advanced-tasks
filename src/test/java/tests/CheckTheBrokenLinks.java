@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import utilities.browser.JavaScriptWait;
+import utilities.element.JavaScriptManager;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -17,6 +18,8 @@ public class CheckTheBrokenLinks extends BaseTest {
     public static void validateTheLinks() throws InterruptedException {
         JavaScriptWait.waitForLazyLoading(getDriver());
         Thread.sleep(60000);
+        JavaScriptManager.scrollToBottomPage(getDriver());
+        JavaScriptManager.scrollToTopPage(getDriver());
         List<WebElement> elementList=getDriver().findElements(By.xpath("//a[@href]"));
         ReportManager.log("number of the found elements are"+" "+elementList.size());
         elementList.forEach((webElement -> {
