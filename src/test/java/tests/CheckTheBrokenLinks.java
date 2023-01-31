@@ -16,7 +16,7 @@ public class CheckTheBrokenLinks extends BaseTest {
     @Test
     public static void validateTheLinks() throws InterruptedException {
         JavaScriptWait.waitForLazyLoading(getDriver());
-        Thread.sleep(30000);
+        Thread.sleep(50000);
 
         List<WebElement> elementList=getDriver().findElements(By.xpath("//a[@href]"));
         ReportManager.log("number of the found elements are"+" "+elementList.size());
