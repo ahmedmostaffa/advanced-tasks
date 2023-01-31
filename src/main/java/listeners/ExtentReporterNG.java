@@ -111,7 +111,7 @@ public class ExtentReporterNG implements IReporter {
 			for (ITestResult result : tests.getAllResults()) {
 				test = extent.createTest(result.getMethod().getMethodName());
 				test.assignAuthor(readData("extent.author"));
-				test.assignDevice(ConfigReader.getStringProperty("AUT"));
+				test.assignDevice(ConfigReader.getStringProperty("baseURL"));
 				test.assignCategory(result.getTestClass().getName());
 				test.info(result.getMethod().getDescription());
 				for(String message:Reporter.getOutput(result)){
